@@ -1,0 +1,12 @@
+{
+    "NODE_ENV": "development",
+    "POSTGRES": {
+        "HOST": "localhost",
+        "USERNAME": "postgres",
+        "PASSWORD": "postgres",
+        "DATABASE": "test_local",
+        "PORT": 5433
+    },
+    "CORS": true,
+    "PORT": 7125
+}

@@ -1,0 +1,19 @@
+{
+  "NODE_ENV": "development",
+  "NODE_APP_INSTANCE": "",
+  "API_PREFIX": "api",
+  "POSTGRES": {
+    "HOST": "localhost",
+    "USERNAME": "postgres",
+    "PASSWORD": "",
+    "PORT": 5432,
+    "DATABASE": "test_db",
+    "RETRY_ATTEMPTS": 15,
+    "RETRY_DELAY": 10000
+  },
+  "CORS": true,
+  "SWAGGER": {
+    "SCHEME": "http",
+    "API_PREFIX": "api"
+  }
+}
