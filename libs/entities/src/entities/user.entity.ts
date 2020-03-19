@@ -12,7 +12,7 @@ const normalizeEmail = require('normalize-email');
 
 import { ROLE } from '@test/constants';
 
-import { PatientEntity } from '.'
+import { PatientEntity } from '..'
 import { BaseEntity } from '../abstract/base.entity'
 
 @Entity({ name: 'user' })
